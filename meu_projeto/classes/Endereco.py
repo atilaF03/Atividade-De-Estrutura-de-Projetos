@@ -1,5 +1,5 @@
 import os
-
+from meu_projeto.enum.unidade_federativa import unidade_federativa
 class Endereco:
     def __init__(self, logradouro, numero, cep , complemento , cidade) -> None:
         self.logradouro = logradouro

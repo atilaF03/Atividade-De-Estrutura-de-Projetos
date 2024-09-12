@@ -1,5 +1,5 @@
 from enum import Enum
 
-class genero(Enum):
+class Genero(Enum):
     MASCULINO = ("Masculino","M")
     FEMININO = ("Feminino","F")
