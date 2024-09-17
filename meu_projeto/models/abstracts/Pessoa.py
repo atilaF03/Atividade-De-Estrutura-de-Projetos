@@ -1,7 +1,7 @@
 from abc import ABC,abstractmethod
-from meu_projeto.classes.Endereco import Endereco
+from models.classes.Endereco import Endereco
 
-class pessoa(ABC):
+class Pessoa(ABC):
     def __init__(self,nome,telefone,email, endereco: Endereco) -> None:
         self.nome= nome
         self.telefone= telefone
